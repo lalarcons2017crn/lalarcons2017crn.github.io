@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Web Noruega </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, user-scale=no, initial-scale=1, maximum-scale=1 minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="estilos01.css">
+      <link rel="stylesheet" type="text/css" href="estilos02.css">
+
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                  var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+              });
+          });
+      });
+    </script>
+
+  </head>
+
+	<body>
+
+  
+<div id="contingut">
+
+<section id="section19" data-type="parallax_section" data-speed="10"></section>
+
+
+
+
+        <article>  
+        <div id="texto">
+
+           <h3> Rutes d'interès</h3> 
+
+              <h4> Trollstigen </h4>  
+
+              <p> La ruta serp d’asfalt que és la carretera de muntanya Trollstigen s’amaga prop de Geiranger amb el Fiord de Nærøi. Trollstigen, que en noruec significa escala de trolls, va ser tallada a la muntanya durant els anys 30, té un desnivell del nou per cent i 11 corbes tancadíssimes que es poden observar en tota la seva esplendor des dels miradors sense dubte, en una de les millors rutes amb cotxe de Noruega.
+              </p> 
+
+               <h4> Carretera de l’Atlàntic </h4>
+
+              <p> Tracta de fer vuit quilòmetres per carretera que van de Kristiansund a Motlle amb preciosos paisatges al voltant plens de mar i muntanyes. Condueix entre illes per una via plena de ponts, alguns d’ells semblen trets d’una pel·lícula</p> 
+
+               <h4>Carretera Nacional per Lofoten </h4>
+
+              <p> Aquesta carretera turística nacional recorre 166 quilòmetres i passa per fantàstics paisatges de Lofoten, amb muntanyes majestuoses, prats verds, platges de sorra blanca, vaixells pesquers.
+              Una ruta entre illes per sobre del Cercle Polar Àrtic, si realitzes aquesta ruta a l’hivern tindràs que tenir molta cura amb el gel i la neu, i amb l’aurora boreal de no distreure’t</p> 
+       
+       </article>  
+
+        <section id="section20" data-type="parallax_section" data-speed="10" width="50" ></section>
+
+
+</div>
+
+
+	</body>
+
+
+</html>

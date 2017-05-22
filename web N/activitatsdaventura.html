@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Web Noruega </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, user-scale=no, initial-scale=1, maximum-scale=1 minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="estilos01.css">
+      <link rel="stylesheet" type="text/css" href="estilos02.css">
+
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                  var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+              });
+          });
+      });
+    </script>
+
+  </head>
+
+	<body>
+  
+  <div id="contingut">
+
+
+
+              <section id="section22" data-type="parallax_section" data-speed="10"></section>
+  
+   <article> 
+
+              <div id="texto">
+
+<h3>Activitats d’aventuras</h3>
+
+<h3>Kjerag</h3>
+
+<p>En 1084 metres, torres Kjerag per sobre dels altres becs al llarg del fiord. Ha estat tradicional per admirar aquesta cara de la muntanya des del fiord, però en els últims anys, s’ha tornat cada vegada més popular per caminar per la sendera de l’altiplà. Alguns excursionistes, han anat de l’excursió és per ser fotografiat en el Kjeragbolten, una roca rodona encaixada fermament en la muntanya. Kjerag també s’ha convertit en una atracció popular per als alpinistes i els ponts baixos.</p>
+    </article>
+      
+
+    
+
+            <section id="section23" data-type="parallax_section" data-speed="10"></section>
+
+   <article> 
+   
+                 <div id="texto">
+
+<h3>Preikestolen</h3>
+
+<p>Preikestolen és una de les atraccions 
+més visitades de Rogaland, i un dels més espectaculars temes de la foto del país. Preikestolen ha estat nomenat un dels més espectaculars miradors del món tant per la CNN Go i Lonely Planet. S’eleva 604 metres sobre el Lysefjord.
+ 
+L’altiplà de la muntanya d’uns 25 x 25 metres va ser probablement format per l’expansió del gel, fa uns 10 000 anys. 
+
+L’aigua que es va congelar en les esquerdes de la muntanya es va trencar grans blocs solts de vores de pedra que el glacial gel va portar al llarg del seu curs.</p>  
+        </article>
+
+    
+      <section id="section24" data-type="parallax_section" data-speed="10"></section>
+
+ <article>
+ 
+     <div id="texto">
+
+<h3>Svalbard</h3>
+
+<p>La zona en la qual ens anem a moure  l'illa és relativament petita en comparació a l’arxipèlag. Això és a causa que l’única zona més “habitable” es troba en el sud-est. La resta és glacial i gel. Però així i tot es poden fer moltes activitats, depenent de l’estació de l’any: A l’hivern: totes les relacionades amb gel i neu. Esquí, expedicions en raquetes, escalada en gel,  expedicions amb moto de neu… A l’estiu: quan la neu i el gel es fonen, l’aigua i la terra es converteixen en les protagonistes.</p> 
+
+
+<p>Les activitats amb caiac, trekking, acampades de diversos dies, expedicions amb vaixell ...
+També té un magatzem subterrani està tocant al Pol Nord. És coneix popularment com el ‘magatzem de la fi del món’ és capaç de resistir terratrèmols, impactis de bombes nuclears, etc. La construcció d’aquest lloc va acabar fa 7 anys i fins llaura el món no havia tingut la necessitat de fer-ne ús (afortunadament) però per primera vegada s’han extret llavors, per a molts camps de Síria han quedat totalment destrossats per la guerra i han desaparegut alguns aliments i llavors.</p>
+
+
+ </article>
+
+
+
+
+	</body>
+
+
+</html>

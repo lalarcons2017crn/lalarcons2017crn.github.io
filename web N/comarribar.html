@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Web Noruega </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, user-scale=no, initial-scale=1, maximum-scale=1 minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="estilos01.css">
+      <link rel="stylesheet" type="text/css" href="estilos02.css">
+
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                  var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+              });
+          });
+      });
+    </script>
+
+  </head>
+
+	<body>
+  
+  <div id="contingut">
+
+
+
+
+       <article> 
+
+<section id="section7" data-type="parallax_section" data-speed="11"></section>
+            <div id="texto">
+            
+             <h3>Com Arribar i transports</h3>
+           <p>Com arribar: A Noruega podem arribar amb avió, vaixell i amb cotxe sent la
+            manera més fàcil de viatjar a aquesta
+            destinació el del transport internacional, l’aerolínia que vola per tota Europa i que té més vols a la setmana al país és Scandinavian Airlines (SAS).
+
+            Com mobilitzar-nos: A Noruega comptarem amb el transport aeri nacional i amb el transport terrestre quan desitgem traslladar-nos per les principals ciutats del país com Oslo, Larvik, Kristiansand i Stavanger.
+           </p>
+
+         </article>
+
+<section id="section7" data-type="parallax_section" data-speed="10"></section>
+
+          <article>  
+            <div id="texto">
+
+            <p>Tren NSB en l’Estació Central d’Oslo, la més gran del país.
+            A causa de la baixa densitat de població, estretes i llargues costes, el transport públic a Noruega està menys desenvolupat que en molts països europeus, especialment fora de les ciutats.</p>
+         </article>
+
+</div>
+
+
+	</body>
+
+
+</html>

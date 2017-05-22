@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Web Noruega </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, user-scale=no, initial-scale=1, maximum-scale=1 minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="estilos01.css">
+      <link rel="stylesheet" type="text/css" href="estilos02.css">
+
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                  var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+              });
+          });
+      });
+    </script>
+
+  </head>
+
+	<body>
+  
+  <div id="contingut">
+
+
+<section id="section10" data-type="parallax_section" data-speed="10"></section>
+        <article> 
+            <div id="texto"> 
+
+            <h3>Festes populars</h3>
+            <h4>Febrer</h4> 
+
+            El 6 de febrer se celebra la Festa Nacional del Poble Sami, antic poble de Lapònia. Gent de tot el país arriben a la ciutat i instal·len els seus mercats ambulants en els quals ofereixen menjars típics, i, sobretot, molt alcohol.
+            El 21 se celebra l’aniversari del rei Harald V, que inclou desfilades en la Kart Johan i la tradicional salutació del monarca des de l’esplanada del Palau Real.
+            <h4>Maig</h4>
+
+            El 17 se celebra el Dia de la Constitució. És la festa més important per als noruecs, que copen les places i carrers per festejar la sanció de la Constitució. Oslo s’omple de banderes i el parc Vigeland és seu de festivals musicals i commemoracions.
+            <h4>Juny</h4>
+
+            El 23 se celebra la Vespra del Solstici d’Estiu: el poble es reuneix als parcs a menjar i beure per festejar l’arribada de l’anhelat estiu i les 24 hs. De llum solar.
+            Els Premis Nobel de la Pau: el 10 de desembre a Oslo es fa lliurament del Premi Nobel de la Pau. Es necessita invitació per entrar, però l’endemà se celebra un concert en l’Oslo Spektrum al que es pot assistir i que atreu a personalitats tant dins com fos de l’escenari.
+            El poble de galeta de gingebre: al desembre podreu veure el poble de galetes de gingebre més gran del món en Torgallmenningen, al centre de Bergen.
+            Festival Oya: se celebra a Oslo a l’agost. Aquest esdeveniment de cinc dies és el festival de música més gran a l’exterior a Oslo, ofereix grans actuacions de rock i bandes independents i presenta cada any una sèrie de músics procedents de tot el món. És, a més, un festival respectuós amb el medi ambient, amb un 100% de menjar orgànic i ètica verda.</p>
+        </article>
+
+
+<section id="section10" data-type="parallax_section" data-speed="10"></section>
+        <article> 
+          <div id="texto"> 
+
+           <h3> Llengua </h3>
+
+            <p>El noruec és una llengua escandinava que 4.741.780 parlants, la majoria a Noruega (4.640.000). També hi ha noruec-parlants a Dinamarca, Suècia, Alemanya, el Regne Unit, Espanya, Canadà i els Estats Units, a on hi ha la comunitat més importants de parlants de noruec fora de Noruega. El 2000 hi havia 55.311 noruec-parlants als Estats Units. Al Canadà hi ha 7.710 noruec-parlants el 2006.
+            El noruec té dos dialectes estàndards escrits, cadascun amb un codi ISO 639-3 de l’ethnologue, el Noruec Bokmål i el noruec Nynorsk
+            </p>
+        </article>
+
+
+<section id="section11" data-type="parallax_section" data-speed="10"></section>
+        <article> 
+         <div id="texto"> 
+
+             <h3>Música</h3>
+
+            <p>El músic i compositor Edvard Grieg, els músics moderns Arne Nordheim.
+            I el moviment del black metal noruec han estat els que han situat la música noruega a nivell internacional.
+
+            A la música clàssica hi destaquen Leif Ove Andsnes, un dels pianistes més famosos de món i el violoncelista Truls Mørk. En el jazz són internacionalment reconeguts els músics Jan Garbarek
+            Oslo i la regió del voltant s’han convertit en una de les destinacions més importants per la música en directe de gairebé qualsevol gènere. Gent de tota la part est del país assisteixen a festivals com Slottsfjell a Tønsberg.
+           </p>
+        </article>
+
+
+
+</div>
+
+
+	</body>
+
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Web Noruega </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, user-scale=no, initial-scale=1, maximum-scale=1 minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="estilos01.css">
+      <link rel="stylesheet" type="text/css" href="estilos02.css">
+
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                  var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+              });
+          });
+      });
+    </script>
+
+  </head>
+
+	<body>
+  
+  <div id="contingut">
+
+        <article> 
+
+         <div id="texto">
+
+            <h3> Gastronomia</h3> 
+
+            <p> La gastronomia tradicional de Noruega surt de tot allò que pugui créixer en el clima nòrdic, que pugui ser guardat i que contingui suficient energia per a la població. Exemple dels productes usats són: pa amb llevat i sense ella, gachas, sopes, patates i carn vermella i blanca fumada o salada.
+            Entre els plats típics més popular estan el “tørrfisk” i el “klippfisk”. Tots dos són plats l’ingredient principal dels quals és el bacallà. La diferència està que el primer es menja sec i en el segon salat. El plat nacional per excel·lència és el “fårikål”, el qual consisteix en una casserola amb carn de vedella i col cuita.</p>
+
+            </article> 
+        
+<section id="section8" data-type="parallax_section" data-speed="10"></section>
+
+<article> 
+
+         <div id="texto">
+
+
+            <p>El menjar d’alta cuina inclou animals caçats i peix fresc. Medallons, filets i mandonguilles de cérvols i alci compten amb una reputació internacional i poden ser trobats en els millors restaurants de Noruega. Les varietats de salmó fumat o fresc també són molt benvolgudes. Pel sabor fort aquestes carns, de vegades són acompanyades. Les patates i cebes també són acompanyaments populars.
+            El salmó noruec:
+            En el desdejuni, en el menjar, en el sopar... Mai és mal moment per provar el salmó fumat, el producte gastronòmic de major exportació a Noruega. I encara que la internacionalització del producte
+
+            és evident, diria que la textura del salmó fresc noruec és única.
+            Es pot degustar de centenars de maneres diferents: amb ou regirat (“laks og eggerøre”), en sandwiches... El “gravlaks” (literalment “salmó enterrat”) proposa el salmó guarit amb una mescla de sal i sucre, assaonat amb anet i altres herbes i espècies.
+            </p>
+
+
+        </article>
+
+<section id="section8" data-type="parallax_section" data-speed="10"></section>
+      
+        <article> 
+
+            <div id="texto">
+
+             <h3>Esports</h3> 
+
+            <p>Vegeu també: Noruega en els Jocs Olímpics
+            En els Jocs Olímpics d’Anvers 1920, la delegació noruega va obtenir 31 medalles (13 d’or, 9 de plata i de bronze), sent la seva millor marca en la història fins ara. En atletisme s’han destacat a Grete Waitz i la llançadora de javelina Trine Hattestad. També es va destacar en les disciplines de vela, handbol i tir.</p>
+
+            </article>
+
+<section id="section32" data-type="parallax_section" data-speed="10"></section>
+
+             <article> 
+            
+            <div id="texto">
+            <p>El país lidera el medaller històric en els Jocs Olímpics d’Hivern. És potència mundial en nombroses modalitats d’esquí, en particular en esquí de fons, combinada nòrdica, biatlón i salts d’esquí. També s’ha destacat en patinatge de 
+
+            velocitat. La Eliteserien és la primera divisió de futbol de Noruega. El club més reeixit és el Rosenborg, guanyador de 22 lligues nacionals, mentre que Ole Gunnar Solskjær i John Arne Riise són els futbolistes més coneguts, després de triomfar en el futbol europeu amb el Manchester United i el Liverpool, respectivament. </p>
+           </article>
+
+
+<section id="section33" data-type="parallax_section" data-speed="10"></section>
+       
+
+</div>
+
+
+	</body>
+
+
+</html>

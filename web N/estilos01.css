@@ -1,0 +1,329 @@
+*, html {
+    margin: 0;
+    padding: 0;
+
+   }
+   
+
+
+
+#home{
+  background: url(fotosweb/barco.jpg) 50% 0 no-repeat fixed;
+}
+
+#section2{
+  background: url(fotosweb/barco.jpg) 50% 0 no-repeat fixed;
+}
+
+#section3{
+  background: url(fotosweb/viking.jpg) 50% 0 no-repeat fixed;
+}
+
+#section4{
+  background: url(fotosweb/casa.jpg) 50% 0 no-repeat fixed;
+}
+
+#section5{
+  background: url(fotosweb/iglesia5.jpg) 50% 0 no-repeat fixed;
+}
+
+#section7{
+  background: url(fotosweb/transporte.jpg) 50% 0 no-repeat fixed;
+}
+
+#section7{
+  background: url(fotosweb/transporte.jpg) 50% 0 no-repeat fixed;
+}
+
+
+#section8{
+  background: url(fotosweb/platotra.jpg) 50% 0 no-repeat fixed;
+}
+
+#section9{
+
+  background: url(fotosweb/platotra.jpg) 50% 0 no-repeat fixed;
+}
+
+#section10{
+  background: url(fotosweb/dianacional.jpg) 50% 0 no-repeat fixed;
+}
+ 
+
+#section11{
+  background: url(fotosweb/orques.jpg) 50% 0 no-repeat fixed;
+}
+
+#section12{
+  background: url(fotosweb/kayak.jpg) 50% 0 no-repeat fixed;
+}
+
+#section13{
+  background: url(fotosweb/cityoslo.jpg) 50% 0 no-repeat fixed;
+}
+
+#section14{
+  background: url(fotosweb/cityoslo.jpg) 50% 0 no-repeat fixed;
+}
+
+#section15{
+  background: url(fotosweb/paisaje.jpg) 50% 0 no-repeat fixed;
+}
+
+#section16{
+  background: url(fotosweb/paisaje.jpg) 50% 0 no-repeat fixed;
+}
+#section17{
+  background: url(fotosweb/bergen.jpg) 50% 0 no-repeat fixed;
+}
+
+#section18{
+  background: url(fotosweb/bergen.jpg) 50% 0 no-repeat fixed;
+}
+
+#section19{
+  background: url(fotosweb/trollstigen.jpg) 50% 0 no-repeat fixed;
+}
+
+#section20{
+  background: url(fotosweb/trollstigen.jpg) 50% 0 no-repeat fixed;
+}
+
+#section21{
+  background: url(fotosweb/esqui5.jpg) 50% 0 no-repeat fixed;
+}
+
+#section22{
+  background: url(fotosweb/preikestolenn.jpg) 50% 0 no-repeat fixed;
+}
+
+#section23{
+  background: url(fotosweb/preikestolenn.jpg) 50% 0 no-repeat fixed;
+}
+
+#section24{
+  background: url(fotosweb/aurora.jpg) 50% 0 no-repeat fixed;
+}
+
+#section25{
+  background: url(fotosweb/palacio.jpg) 50% 0 no-repeat fixed;
+}
+
+#section26{
+  background: url(fotosweb/catedral.jpg) 50% 0 no-repeat fixed;
+}
+#section27{
+  background: url(fotosweb/catedral.jpg) 50% 0 no-repeat fixed;
+}
+#section28{
+  background: url(fotosweb/geiranger.jpg) 50% 0 no-repeat fixed;
+}
+#section29{
+  background: url(fotosweb/palacio.jpg) 50% 0 no-repeat fixed;
+}
+
+#section30{
+  background: url(fotosweb/ski51.jpg) 50% 0 no-repeat fixed;
+}
+#section31{
+  background: url(fotosweb/kayak.jpg) 50% 0 no-repeat fixed;
+}
+#section32{
+  background: url(fotosweb/deportes4.jpg) 50% 0 no-repeat fixed;
+}
+#section33{
+  background: url(fotosweb/deportes4.jpg) 50% 0 no-repeat fixed;
+}
+
+
+
+
+
+#home, #section2, #section3, #section4, #section5, #section6, #section8, #section9, #section10, #section11, 
+#section12, #section13, #section14,#section15,#section16,#section17,#section18,#section19,#section20,#section21,
+#section22,#section23,#section24,#section25,#section26,#section27,#section28,#section29,#section30,#section32,
+#section33,#section33 {
+
+      min-height: 300px;
+      margin: 0px auto;
+      max-width: 1920px;
+      position: relative;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-size: cover;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+}
+
+
+#section7, #section22 {
+
+      min-height: 400px;
+      margin: 0px auto;
+      max-width: 1920px;
+      position: relative;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-size: cover;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+
+
+#section19, #section31 { 
+     min-height: 430px;
+      margin: 0px auto;
+      max-width: 1920px;
+      position: relative;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-size: cover;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+}
+
+
+
+
+
+
+}
+
+
+article{
+  padding: 100px;
+
+}
+
+
+body{
+	margin: 0;
+	font-family: Verdana;
+	font-size : 13px; 
+
+}
+
+
+video{	
+	width: 100%;
+	height: auto;
+
+  overflow-y: none; 
+    overflow-x: none; 
+
+}
+
+@media only screen and (max-width: 767px) and (orientation:portrait){
+  
+}
+  
+#hoteles {
+  margin-left: 15%
+
+
+
+}
+
+
+
+#texto {
+
+background-color: rgba(255,255,255, 0.6);
+text-align: center;
+padding: 20px;
+margin-top: 12px;
+margin: left;
+
+}
+
+  
+
+iframe{ margin:0 auto;
+padding-left: 18%;
+width: 700px;
+height: 340px;
+
+}
+
+
+   #contingut{    
+     width: 80%;
+    background-color:#cccccc;
+    margin: 0 auto;
+
+   }
+
+
+ #header {
+  
+    margin: 0 auto;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+
+   }
+   
+   ul, ol {
+    list-style:none;
+
+   }
+   .nav{
+      width: 80%;
+      margin: 0 auto;
+      margin: right;
+    
+   }
+   
+   .nav li {
+      display: inline-block;
+  
+
+      
+   }
+   
+   .nav li a {
+    background-color:grey;
+    color:#fff;
+    text-decoration:none;
+    margin: 0px;  
+    padding:10px 11px;    
+    display:block;
+   }
+
+
+   
+   .nav li a:hover {
+    background-color:#cccccc;
+   }
+   
+   .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+   }
+   
+   .nav li a:hover  ul {
+    display:block;
+   }
+   
+   .nav li ul li {
+    position:relative;
+
+   }
+   
+   .nav li ul li ul {
+    right:-140px;
+    top:0px;
+
+   }   
+
+   
