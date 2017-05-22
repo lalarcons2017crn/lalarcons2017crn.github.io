@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Web Noruega </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, user-scale=no, initial-scale=1, maximum-scale=1 minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="estilos01.css">
+      <link rel="stylesheet" type="text/css" href="estilos02.css">
+
+    
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                  var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+              });
+          });
+      });
+    </script>
+
+  </head>
+
+	<body>
+  
+  <div id="contingut">
+
+
+
+        <article> 
+
+        <div id="texto">
+
+                  <h3>Hotel The thief</h3>
+                  <p>Aquest hotel d’Oslo per a famílies es troba a la vora de l’aigua, a deu minuts a peu de Museu de Arete Modern de Astrup Fearnley.</p> 
+                  <h3>Grand Hotel, Karl Johansgate</h3> 
+                  <p>Aquest hotel de luxe de la zona d’Oslo se situa a pocs passos de Teatre Oslo Nye, Calle Karl Johan i Parlament. Galeria Nacional i Domkirke també estan a deu minuts.</p>
+                  <h3>Hotel Continental,Stortingsgaten</h3> 
+                  <p>Aquest hotel de luxe de la zona d’Oslo se situa a cinc minuts a peu de Teatre Nacional, Parlament i Galeria Nacional. Calle Karl Johan i Palacio Real també estan a deu minuts.</p>
+                  <h3>Thon Hotel Bristol</h3>
+                  <p>Aquest hotel de la zona d’Oslo se situa a pocs passos de Teatre Noruec i Galeria Nacional. Calle Karl Johan i Parlament també estan a cinc minuts.</p>
+            </article> 
+
+
+            <div id="hoteles">
+            <iframe src="gwd_preview_animacionweb3/index5.html" scrolling="no" width="600" height="350" margin="0auto" frameborder="0"  ></iframe>
+            </div>
+
+
+
+                  <article> 
+
+        <div id="texto">
+
+                  <h3>Restauració</h3>
+
+                  <p>El restaurant Maaemo a Oslo va rebre tres estels en la Guia Michelin de 2016 i les ha mantingut en 2017. 
+
+                  És la primera vegada que un restaurant noruec rep tres estels en la famosa guia gastronòmica</p>
+                  
+                  <h3>Sabi omakase</h3>
+
+                  <p>Sabi Omakase va rebre un estel en la Guia Michelin en 2017 i el segon restaurant en Stavanger per rebre un estel. A uns centenars de metres del centre de Stavanger, de l’extrem est de la ciutat, “Oyakata” mestre de sushi, Roger Asakil Joia i els altres fundadors de la cadena de Sabi Sushi, corren restaurant de sushi potser més exclusiva de Noruega.</p>
+
+                  <p>En el restaurant hi ha espai per 9 persones. Vostè se senti al voltant de la barra i l’oportunitat de veure mestre del sushi Asakil Joia de sushi en un frenesí.</p> 
+
+
+                  <h3>Statholdergaarden</h3>
+
+                  <p>Statholdergaarden és el restaurant gourmet del Bernt Stiansen. En 1993 Stiansen va convertir en el primer campió del món de les arts culinàries de Noruega. El restaurant, amb el seu exclusiu disseny interior ha estat cridat d’Oslo, tal vegada, el millor restaurant de Noruega</p>
+               
+
+<section id="22" data-type="parallax_section" data-speed="10"></section>
+    </article> 
+
+
+</div>
+
+
+	</body>
+
+
+</html>
